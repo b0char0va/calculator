@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="outer">
+    <div class="middle">
+        <div class="inner">
+            <h2 class="py-3">Calculator</h2>
+            <div class="col-md-10 offset-md-1">
+                <form >
+                    <div class="p-1 box">
+                        <div id="result"><span>0</span></div>
+                        <div id="history"><span></span></div>
+                    </div>
+                </form>
+                <div class="my-2 pb-3">
+                    <button class="btn btn-light mb-1" type="button" id="AC">AC</button>
+                    <button class="btn btn-light mb-1 dis" type="button" id="CE">CE</button>
+                    <button class="btn btn-light mb-1 op dis" type="button">/</button>
+                    <button class="btn btn-light mb-1 op dis" type="button">*</button>
+
+                    <button class="btn btn-light mb-1 num dis" type="button">7</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">8</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">9</button>
+                    <button class="btn btn-light mb-1 op dis" type="button">-</button>
+
+                    <button class="btn btn-light mb-1 num dis" type="button">4</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">5</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">6</button>
+                    <button class="btn btn-light mb-1 op dis" type="button">+</button>
+
+                    <button class="btn btn-light mb-1 num dis" type="button">1</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">2</button>
+                    <button class="btn btn-light mb-1 num dis" type="button">3</button>
+                    <button class="btn btn-light mb-1 dis" type="button" id="decimal">.</button>
+
+                    <button class="btn btn-light last dis" type="button" id="zero">0</button>
+                    <button class="btn btn-danger last dis" type="button" id="enter">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
+<script src="main.js"></script>
+</body>
+</html>
