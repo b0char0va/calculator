@@ -52,7 +52,6 @@ $(document).ready(function () {
             if (history[0] === undefined) {
                 $("#history").append("0.");
                 $("#result").append(".");
-                console.log("success");
             } else {
                 $("#history").append(".");
                 $("#result").append(".");
