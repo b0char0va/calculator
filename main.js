@@ -48,18 +48,15 @@ $(document).ready(function () {
             $("#history").empty();
             $("#result").append("0.");
             $("#history").append("0.");
-        } else if ((!/\./.test(input)) && (!ops.includes(history[history.length - 1]))) {
+        }else if ((!/\./.test(input)) && (!ops.includes(history[history.length - 1]))) {
             if (history[0] === undefined) {
                 $("#history").append("0.");
                 $("#result").append(".");
+                console.log("success");
             } else {
                 $("#history").append(".");
                 $("#result").append(".");
             }
-        } else {
-            $("#result").empty();
-            $("#result").append("0.");
-            $("#history").append("0.");
         }
     });
     $("#AC").click(function () {
